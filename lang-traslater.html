@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Translator</title>
+    <link rel="stylesheet" href="traslate-style.css" >
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap" 
+     rel="stylesheet">
+</head>
+<body>
+    <div class="contain">
+        <div class="box"> 
+            <div class="text-box">
+               <textarea class="text-1" placeholder="Enter Your Text"></textarea>
+               <textarea class="text-2" placeholder="Traslated Text" readonly disabled></textarea>
+           </div>
+   
+           <ul class="control">
+                 <li class="control-icon">
+             <div class="icon">
+                 <i  id="icon1" class="fas fa-volume-up over"></i>
+                 <i  id="icon1" class="fas fa-copy over"></i>
+             </div>
+             <select></select>
+             </li>
+
+             <li class="change"><i class="fas fa-exchange-alt"></i></li>
+
+             <li class="control-icon2">
+             <select></select>
+             <div class="icon">
+                 <i  id="icon2" class="fas fa-copy over"></i>
+                 <i id="icon2" class="fas fa-volume-up over"></i>
+            </div>
+         </li>
+      </ul>
+    </div>
+       
+      <button class="button">Translate</button>
+    </div>
+     
+    <script src="js/countries.js"></script>
+     <script src="js/function.js"></script>
+    
+</body>
+</html>
